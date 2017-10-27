@@ -1,0 +1,120 @@
+body {
+	font-family: sans-serif;
+	background-image: url(../img/patterns/P1250966.jpg);
+}
+header {
+	height: 64px;
+	border-bottom: 1px solid #e7e7e7;
+	/*background-color: #121F1F;*/
+}
+header div h1 {
+	font-size: 45px;
+	font-weight: bolder;
+	color: #000000;
+	letter-spacing: -2px;
+}
+header div ul li a {
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+/*	text-decoration: none;*/
+}
+#flex-container {
+	display: flex;
+	justify-content: space-between;
+	width: 970px;
+	min-width: 800px;
+	height: 65px;
+	align-items: center;
+	margin: 0 auto;
+}
+#flex-container  ul {
+	display: flex;
+}
+#flex-container  ul li {
+	padding: 10px;
+}
+#catalog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 900px; 
+	margin: auto;
+}
+.item {
+	border: 1px solid #F3f3f3;
+	width: 270px;
+	height: 270px;
+	margin-top: 20px;
+/*	text-decoration: none;*/
+	text-align: justify;
+	font-size: 40px;
+	font-weight: bold;
+} 
+.item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+/*	margin: auto;*/
+	border: 1px solid #F3f3f3;
+	width: 270px;
+	height: 270px;
+	margin: 10px;
+/*	text-decoration: none;*/
+	text-align: justify;
+	font-size: 40px;
+	font-weight: bold;
+} 
+.small a {
+	color: white;
+}
+#sec1 {
+	background-image: url(../img/106.jpg);
+    background-color: #cccccc;
+    background-size: 270px;
+}
+#sec2 {
+	background-image: url(../img/shop.jpg);
+    background-color: #cccccc;
+    background-size: 270px;
+}
+#sec3 {
+	background-image: url(../img/128.jpg);
+    background-color: #cccccc;
+    background-size: 270px;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+	/*width: 970px;*/
+	justify-content: space-around;
+	margin-top: 100px;
+	align-items: center;
+	margin: 30px auto;
+	border-top: 1px solid #FFFFFF;
+}
+footer div ul {
+	color: #FFFFFF;
+
+}
+.icon {
+	height: 30px;
+	width: 30px;
+	margin: 15px;
+}
+#social p {
+	margin: auto;
+	font-weight: bold;
+	
+}
+/*.slideshow {order: 1; width: 650px; height: 650px; flex: 3 0 0;}
+
+#sec2 {order: 2; flex: 0 1 200px;}
+#sec3 {order: 3; flex: 0 1 200px;}
+#sec4 {order: 4; flex: 0 1 200px;}
+
+footer {order: 5; height: 300px; flex: 3 0 0;}
+*/
